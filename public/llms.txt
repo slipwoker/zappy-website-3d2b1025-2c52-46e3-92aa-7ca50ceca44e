@@ -1,0 +1,83 @@
+# מנעולים חכמים - That’s smart 🔐 — Generative Engine Optimization Map
+
+> A professional smart lock and advanced security solutions company specializing in the installation and customization of cutting-edge locking systems for both residential and commercial clients. The brand positions itself at the intersection of technology and security, emphasizing maximum convenience, top-tier safety, and a seamless user experience for every entry and exit. Their core promise is bringing the latest in smart home and business security technology directly to the customer's door.
+
+---
+
+## Pages
+
+### בית
+https://that-s-smart-3d2b1025.zappy5.app
+שדרגו את הבית או העסק עם פתרונות מנעולים חכמים ומערכות אבטחה מתקדמות. התקנה מקצועית, נוחות מקסימלית ושקט נפשי מוחלט בכל כניסה ויציאה. הצטרפו למהפכת האבטחה עוד היום!
+
+### שירותים
+https://that-s-smart-3d2b1025.zappy5.app/services
+מנעולים אלקטרוניים לדלתות, ארונות מפתחות חכמים וכספות דיגיטליות בהתאמה אישית. טכנולוגיה פורצת דרך שתשנה את חוויית האבטחה שלכם. קבעו ייעוץ חינם עכשיו!
+
+### אודות
+https://that-s-smart-3d2b1025.zappy5.app/about
+צוות מקצועי שמחבר בין טכנולוגיית אבטחה חדשנית לצרכים האמיתיים שלכם. אנחנו מביאים ניסיון, אמינות ופתרונות חכמים ישירות אליכם. הכירו את האנשים ששומרים עליכם.
+
+### צור קשר
+https://that-s-smart-3d2b1025.zappy5.app/contact
+מוכנים לקפוץ לרמת האבטחה הבאה? צרו קשר עוד היום לשיחת ייעוץ, הצעת מחיר משתלמת או קביעת התקנה מהירה. הפתרון המושלם מחכה לכם מעבר לדלת.
+
+### תודה רבה - מנעולים חכמים
+https://that-s-smart-3d2b1025.zappy5.app/thank-you
+תודה שפנית אלינו. קיבלנו את פנייתך בנושא מנעולי דלתות ביטחון אלקטרוניים ונחזור אליך בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://that-s-smart-3d2b1025.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://that-s-smart-3d2b1025.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://that-s-smart-3d2b1025.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://that-s-smart-3d2b1025.zappy5.app/contact
+- Endpoint: https://that-s-smart-3d2b1025.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About מנעולים חכמים - That’s smart 🔐
+A professional smart lock and advanced security solutions company specializing in the installation and customization of cutting-edge locking systems for both residential and commercial clients. The brand positions itself at the intersection of technology and security, emphasizing maximum convenience, top-tier safety, and a seamless user experience for every entry and exit. Their core promise is bringing the latest in smart home and business security technology directly to the customer's door.
+
+## Target Audience
+- בעלי בתים ועסקים
+- בעלי בתים עם עניין בבטיחות מודרנית
+- עסקים המחפשים שדרוג אבטחה
+- חובבי טכנולוגיה
+
+## Industry
+Smart Locks & Security Solutions
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://that-s-smart-3d2b1025.zappy5.app/sitemap.xml
+- Robots: https://that-s-smart-3d2b1025.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://that-s-smart-3d2b1025.zappy5.app/llms-full.txt
