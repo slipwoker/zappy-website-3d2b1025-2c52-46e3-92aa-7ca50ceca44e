@@ -68,16 +68,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
-  --primary: #718355;
-  --secondary: #B8914D;
-  --accent: #C86B4A;
-  --bg-light: #F7F1E8;
+--primary: #1A7A8A;
+  --secondary: #C7952B;
+  --accent: #E85B3A;
+  --bg-light: #FFFFFF;
   --bg-dark: #2B2520;
-  --text-dark: #2B2520;
+  --text-dark: #4a4a4a;
   --text-light: #F7F1E8;
-  --text-muted: #6F665D;
-  --border-light: #E8DCCB;
-  --border-dark: #4A4038;
+  --text-muted: #707070;
+  --border-light: #8b847a;
+  --border-dark: #7d736b;
   --nav-bg: #F7F1E8;
   --nav-text: #2B2520;
   --nav-text-hover: #718355;
@@ -98,6 +98,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
+  --primary-color: #1A7A8A;
+  --secondary-color: #C7952B;
+  --accent-color: #E85B3A;
+  --background-color: #FFFFFF;
+  --surface-color: #F2F7F8;
+  --text-color: #4a4a4a;
+  --text-secondary-color: #707070;
 }
 
 *, *::before, *::after {
@@ -213,7 +220,7 @@ input, textarea, select {
   border: 1px solid var(--border-light);
   border-radius: var(--radius-input);
   padding: 12px 16px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   color: var(--text-dark);
   transition: var(--transition-default);
 }
@@ -255,24 +262,24 @@ input:focus, textarea:focus, select:focus {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #C8623A 0%, #E8845A 100%);
+  background: linear-gradient(135deg, #E64F2C 0%, #DAAF55 100%);
   color: #fff;
   border-color: transparent;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #B85530 0%, #D9784E 100%);
+  background: linear-gradient(135deg, #A17923 0%, #EA6B4D 100%);
   color: #fff;
 }
 
 .btn-secondary {
-  background: linear-gradient(135deg, #4A7C59 0%, #6A9E78 100%);
+  background: linear-gradient(135deg, #176D7B 0%, #229EB2 100%);
   color: #fff;
   border-color: transparent;
 }
 
 .btn-secondary:hover {
-  background: linear-gradient(135deg, #3D6A4B 0%, #5A8C67 100%);
+  background: linear-gradient(135deg, #125661 0%, #1C8496 100%);
   color: #fff;
 }
 
@@ -360,10 +367,10 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: #F7F1E8;
   --nav-text: #2B2520;
   --nav-text-hover: #718355;
-  --primary: #718355;
-  --bg-light: #F7F1E8;
-  --border-light: #E8DCCB;
-  --text-dark: #2B2520;
+  --primary: #1A7A8A;
+  --bg-light: #FFFFFF;
+  --border-light: #8b847a;
+  --text-dark: #4a4a4a;
   
   position: fixed;
   top: 0;
@@ -555,10 +562,10 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: #F7F1E8;
   --nav-text: #2B2520;
   --nav-text-hover: #718355;
-  --primary: #718355;
-  --bg-light: #F7F1E8;
-  --border-light: #E8DCCB;
-  --text-dark: #2B2520;
+  --primary: #1A7A8A;
+  --bg-light: #FFFFFF;
+  --border-light: #8b847a;
+  --text-dark: #4a4a4a;
   
   position: fixed;
   top: 0;
@@ -815,7 +822,7 @@ html:not([dir]) .whatsapp-float {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #718355));
+  outline: 2px solid var(--primary-color, var(--primary, #1A7A8A));
   outline-offset: 2px;
 }
 
@@ -1473,7 +1480,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
     order: 0 !important;
     padding: 16px 28px;
     border-radius: 999px;
-    background: var(--primary, var(--accent, #e85d2a)) !important;
+    background: var(--primary, var(--accent, #E85B3A)) !important;
     color: #ffffff !important;
     font-size: 1.1rem;
     font-weight: 700;
@@ -2139,7 +2146,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #b48b59); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #C7952B); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2170,7 +2177,7 @@ hr.section-flourish, .section-flourish, [data-section-divider] {
   height: 2px;
   margin: 1.25rem auto;
   border: 0;
-  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #b48b59)) 30%, var(--accent, var(--primary, #b48b59)) 70%, transparent);
+  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #CE9A2C)) 30%, var(--accent, var(--primary, #CE9A2C)) 70%, transparent);
   border-radius: 999px;
   opacity: 0.85;
 }
@@ -3139,14 +3146,14 @@ main { flex: 1 0 auto; }
 
 /* Primary Button (Brass/Secondary color fill) */
 .index-cta-section__btn--primary {
-  background: var(--secondary, #B8914D);
+  background: var(--secondary, #C7952B);
   color: #FFFFFF;
   border: none;
   box-shadow: var(--shadow-subtle, 0 2px 12px rgba(0,0,0,0.08));
 }
 
 .index-cta-section__btn--primary:hover {
-  background: #A07D3A;
+  background: #C7952B;
   box-shadow: var(--shadow-btn-hover, 0 8px 30px rgba(0,0,0,0.14));
   transform: translateY(-2px);
 }
@@ -3941,7 +3948,7 @@ main { flex: 1 0 auto; }
 .services-comparison-section .btn-primary:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 48px rgba(60,50,40,0.18);
-    background: #5C6B44;
+    background: #1A7A8A;
 }
 
 /* Decorative Dot Grid */
@@ -4017,8 +4024,8 @@ main { flex: 1 0 auto; }
 }
 
 .services-contact-cta-section__panel {
-    background: #E8B89D;
-    background-image: linear-gradient(135deg, #E8B89D 0%, #D49A7A 100%);
+    background: #C7952B;
+    background-image: linear-gradient(135deg, #E8B89D 0%, #DCB35C 100%);
     border-radius: var(--radius-card);
     padding: 48px 48px;
     text-align: center;
@@ -4068,7 +4075,7 @@ main { flex: 1 0 auto; }
 }
 
 .services-contact-cta-section__cta:hover {
-    background: #A37D3E;
+    background: #C7952B;
     box-shadow: var(--shadow-btn-hover);
     transform: translateY(-2px);
 }
@@ -4611,7 +4618,7 @@ main { flex: 1 0 auto; }
   height: 200px;
   pointer-events: none;
   z-index: 0;
-  background-image: radial-gradient(circle, #B8914D 1px, transparent 1px);
+  background-image: radial-gradient(circle, #C7952B 1px, transparent 1px);
   background-size: 16px 16px;
   opacity: 0.08;
 }
@@ -5260,7 +5267,7 @@ main { flex: 1 0 auto; }
 .contact-service-areas-section__card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 48px rgba(60, 50, 40, 0.12);
-  border-color: var(--secondary, #B8914D);
+  border-color: var(--secondary, #C7952B);
 }
 
 .contact-service-areas-section__card-icon {
@@ -5271,7 +5278,7 @@ main { flex: 1 0 auto; }
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary, #718355);
+  color: var(--primary, #1A7A8A);
   margin-bottom: 24px;
   flex-shrink: 0;
 }
@@ -5322,7 +5329,7 @@ main { flex: 1 0 auto; }
 
 /* faq */
 .contact-faq-section {
-  background: #FAF8F5;
+  background: #FFFFFF;
   color: var(--text-dark);
   padding: var(--spacing-section, 120px) 16px;
   position: relative;
@@ -5814,11 +5821,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #718355;
+  --cc-btn-primary-bg: #1A7A8A;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #718355;
-  --cc-btn-primary-hover-bg: #586a3c;
-  --cc-btn-primary-hover-border: #586a3c;
+  --cc-btn-primary-border: #1A7A8A;
+  --cc-btn-primary-hover-bg: #1A7A8A;
+  --cc-btn-primary-hover-border: #1A7A8A;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -5832,7 +5839,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #718355;
+  --cc-toggle-on-bg: #1A7A8A;
 }
 
 #cc-main,
@@ -5945,7 +5952,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #718355 !important;
+  color: #1A7A8A !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -5955,7 +5962,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #586a3c !important;
+  color: #1A7A8A !important;
   background-color: transparent !important;
 }
 
@@ -6337,6 +6344,19 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+
+
+
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-secondary,
+.btn--secondary,
+[class*="btn-secondary"],
+[class*="btn--secondary"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
