@@ -1,4 +1,4 @@
-# מנעולים חכמים - That’s smart 🔐 — Generative Engine Optimization Map
+# מנעולים חכמים - That’s smart  — Generative Engine Optimization Map
 
 > A professional smart lock and advanced security solutions company specializing in the installation and customization of cutting-edge locking systems for both residential and commercial clients. The brand positions itself at the intersection of technology and security, emphasizing maximum convenience, top-tier safety, and a seamless user experience for every entry and exit. Their core promise is bringing the latest in smart home and business security technology directly to the customer's door.
 
@@ -62,7 +62,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מנעולים חכמים - That’s smart 🔐
+## About מנעולים חכמים - That’s smart 
 A professional smart lock and advanced security solutions company specializing in the installation and customization of cutting-edge locking systems for both residential and commercial clients. The brand positions itself at the intersection of technology and security, emphasizing maximum convenience, top-tier safety, and a seamless user experience for every entry and exit. Their core promise is bringing the latest in smart home and business security technology directly to the customer's door.
 
 ## Target Audience
